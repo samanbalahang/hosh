@@ -1,0 +1,62 @@
+
+:root{
+    --gridients: linear-gradient(
+        45deg,
+        #04d6ac,
+        #026f49,
+        #01671a,
+        #004604,
+        #026c3e,
+        #398700,
+        #548f01
+    );
+
+}body{
+    background-image: var(--gridients);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 400%;
+}
+.form-box a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    margin: 1px;
+    width: 46%;
+}
+.form-box input[type="text"]{
+    margin-top: 10px;
+    width: 70%;
+    height: 2.5rem;
+}
+.form-box input[type="checkbox"]{
+    margin: 5px;
+}
+.form-box input[type="submit"]{
+    background-color: rgb(6, 92, 183);
+}
+.form-box input[type="submit"]:active{
+    background-color: rgb(3, 66, 133);
+}
+.form-box input[type="submit"]:hover{
+    box-shadow: 0 0 20px 0 rgb(0, 3, 50);
+}
+.form-control:focus{
+    box-shadow: 0 0 5px 0 green;
+}
+.welcome{
+    color: green;
+}
+.welcome::after{
+    background: linear-gradient(45deg ,#09b629 , #bddb16);
+}
+.container-f::before{
+    background-image: linear-gradient(var(--rotate), #5dffb3, #228a2b 43%, #034588);
+}
+.container-f::after{
+    background-image: linear-gradient(var(--rotate), #5dffb3, #228a2b 43%, #034588);
+}
+.form-box a:hover{
+    color: rgb(3, 150, 25);
+}
+

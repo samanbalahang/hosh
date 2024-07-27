@@ -1,0 +1,116 @@
+body {
+  background-color: #fbfbfb;
+  font-size: 18px;
+}
+@media (min-width: 991.98px) {
+  main {
+    padding-right: 240px;
+  }
+}
+
+*{
+  box-sizing: border-box;
+}
+.direction-rtl{
+  direction: rtl;
+}
+
+/* Sidebar */
+.sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  padding: 58px 0 0; /* Height of navbar */
+  box-shadow: 0 2px 5px 0 rgb(0 0 0 / 5%), 0 2px 10px 0 rgb(0 0 0 / 5%);
+  width: 240px;
+  z-index: 600;
+  direction: rtl;
+}
+
+@media (max-width: 991.98px) {
+  .sidebar {
+    width: 100%;
+  }
+}
+.sidebar .active {
+  border-radius: 5px;
+  box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+}
+
+.sidebar-sticky {
+  position: relative;
+  top: 0;
+  height: calc(100vh - 48px);
+  padding-top: 0.5rem;
+  overflow-x: hidden;
+  overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+}
+.form-product{
+  margin-top: 6rem;
+  direction: rtl;
+  margin-right: 250px;
+}
+.form-w{
+  width: 60%;
+  margin-left: 3rem;
+}
+.l-ml{
+  margin-left: 3rem;
+}
+.tables{
+  margin-top: 10rem;
+  width: 80%;
+}
+.pro-a{
+  font-size: 20px;
+  padding: 1rem;
+  margin-bottom: 4rem;
+  display: block;
+  text-decoration: none;
+  color: white;
+  background-color: rgb(0, 110, 255);
+  width: 20rem;
+  margin-left: 5rem;
+  text-align: center;
+  border-radius: 8px;
+}
+.pro-a:hover{
+  text-decoration: none;
+  background-color: blue;
+  color: white;
+}
+.fontdelete{
+  font-size: 15px;
+}
+.pages-a{
+  display: block;
+  margin-top: 10rem;
+  background-color: rgb(0, 68, 255);
+  width: 15rem;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  padding: 2rem;
+  margin-left: 5rem;
+  border-radius: 8px;
+  font-size: 18px;
+  margin-bottom: 5rem;
+}
+.pages-a:hover{
+  text-decoration: none;
+  color: white;
+  background-color: blue;
+}
+.sub{
+  padding: 2rem;
+  background-color: greenyellow;
+  width: 15rem;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 10rem;
+  font-size: 25px;
+}
+.sub:hover{
+  background-color: rgb(131, 195, 35);
+}

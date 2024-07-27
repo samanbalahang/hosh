@@ -1,0 +1,5 @@
+$(function(){
+
+    new DataTable('#example');
+    
+})

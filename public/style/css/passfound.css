@@ -1,0 +1,47 @@
+:root{
+    --gridient-p: linear-gradient(
+        45deg,
+       #44041d,
+       #a80231
+    );
+}
+body{
+    background-image: var(--gridient-p);
+}
+.form-box a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    margin: 1px;
+    width: 46%;
+}
+.form-box input[type="text"]{
+    margin-top: 10px;
+    width: 70%;
+    height: 2.5rem;
+}
+.form-box input[type="submit"]{
+    background-color: rgb(175, 2, 68);
+}
+.form-box input[type="submit"]:active{
+    background-color: rgb(139, 2, 61);
+}
+.form-box input[type="submit"]:hover{
+    box-shadow: 0 0 20px 0 rgb(78, 0, 34);
+}
+.form-control:focus{
+    box-shadow: 0 0 5px 0 rgb(128, 0, 70);
+}
+.welcome{
+    color: rgb(128, 0, 102);
+}
+.welcome::after{
+    background: linear-gradient(45deg ,#b6093d , #d116db);
+}
+.container-f::before{
+    background-image: linear-gradient(var(--rotate), #ff5d86, #8a2256 43%, #6d0388);
+}
+.container-f::after{
+    background-image: linear-gradient(var(--rotate), #ff5d86, #8a2256 43%, #6d0388);
+}
+
